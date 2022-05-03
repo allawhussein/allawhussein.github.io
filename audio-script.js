@@ -42,6 +42,20 @@ function pauseSong(){
     audio.pause();
 }
 
+function nextSong(){
+    songIndex++;
+    if (songIndex > 3) songIndex = 0;
+    loadSong(songs[songIndex]);
+    playSong();
+}
+
+function prevSong(){
+    songIndex--;
+    if (songIndex < 0) songIndex = songs.length - 1;
+    loadSong(songs[songIndex]);
+    playSong();
+}
+
 //Event Listeners
 //Pause/Play Button Listener
 playBtn.addEventListener('click', ()=> {
