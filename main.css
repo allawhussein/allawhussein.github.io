@@ -49,7 +49,8 @@ body {
 }
 
 .music-container.play .img-container img {
-  animation-play-state: running;
+  animation-play-state: paused;
+  /*changed the paused to running to let the audio image rotate*/
 }
 
 @keyframes rotate {
