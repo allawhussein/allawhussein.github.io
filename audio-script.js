@@ -13,7 +13,7 @@ const currTime = document.querySelector('#currTime');
 const durTime = document.querySelector('#durTime');
 
 //List of songs, should better scan the songs folder for aviable ones, and then create such a list
-const songs = ['أخبرني', 'يه جا براى من تو اين حرم است', 'امشب در سر', 'عبق الأمل'];
+const songs = ['أخبرني', 'يه جاه براى من تو اين حرم است', 'امشب در سر', 'عبق-الأمل'];
 
 //Keep track of the current song
 let songIndex = 2;
