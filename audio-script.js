@@ -90,4 +90,8 @@ nextBtn.addEventListener('click', nextSong);
 //event listener for progress bar
 audio.addEventListener('timeupdate', updateProgress);
 
+//travers through audio track using the progress bar
 progressContainer.addEventListener('click', setProgress);
+
+//auto jump to next audio when the current finishes
+audio.addEventListener('ended', nextSong);
