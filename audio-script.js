@@ -24,6 +24,6 @@ loadSong(songs[songIndex]);
 function loadSong(song){
     //We need to update the title, actual song, image
     title.innerText = song;
-    audio.src = 'music-albums/music-tracks/${song}.mp3';
-    cover.src = 'music-albums/music-images/${song}.jpg';
+    audio.src = `music-albums/music-tracks/${song}.mp3`;
+    cover.src = `music-albums/music-images/${song}.jpg`;
 }
