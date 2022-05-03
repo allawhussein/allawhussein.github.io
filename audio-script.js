@@ -27,3 +27,28 @@ function loadSong(song){
     audio.src = `music-albums/music-tracks/${song}.mp3`;
     cover.src = `music-albums/music-images/${song}.jpg`;
 }
+
+function playSong(){
+    musicContainer.classList.add('play');
+    playBtn.querySelector('i.fas').classList.remove('fa-play');
+    playBtn.querySelector('i.fas').classList.add('fa-pause');
+}
+
+function pauseSong(){
+    musicContainer.classList.remove('play');
+    playBtn.querySelector('i.fas').classList.remove('fa-pause');
+    playBtn.querySelector('i.fas').classList.add('fa-play');
+}
+
+//Event Listeners
+//Pause/Play Button Listener
+playBtn.addEventListener('click', ()=> {
+    const isPlaying = musicContainer.classList.contains('play');
+
+    if (isPlaying){
+        pauseSong();
+    }
+    else{
+        playSong();
+    }
+})
