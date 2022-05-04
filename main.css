@@ -141,7 +141,12 @@ body {
   text-align: center;
 }
 
-.recent-project h4 h2{
+.recent-project h2{
   margin: 0px;
+  padding: 0px;
+}
+
+.recent-project h4{
+  margin: 15px;
   padding: 0px;
 }
