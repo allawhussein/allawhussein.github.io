@@ -136,3 +136,12 @@ body {
 .welcome-text{
 	text-align: center;
 }
+
+.recent-project{
+  text-align: center;
+}
+
+.recent-project h4 h2{
+  margin: 0px;
+  padding: 0px;
+}
