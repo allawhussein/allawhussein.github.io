@@ -16,7 +16,7 @@ const durTime = document.querySelector('#durTime');
 const songs = ['أخبرني', 'يه جاه براى من تو اين حرم است', 'امشب در سر', 'عبق الأمل'];
 
 //Keep track of the current song
-let songIndex = 2;
+let songIndex = 1;
 
 loadSong(songs[songIndex]);
 
