@@ -1,0 +1,11 @@
+# 6 June 2022 - During work with GEO
+  1. worked on AWS EC2 
+    1.1- creation of instance
+    1.2- sending file to instance
+    1.3- setting up git
+    1.4- managing key pairs
+    1.5- managing security groups
+    1.6- understanding the isolation of instances at regional level
+    1.7- connecting to EC2 instance using openssh
+    1.8- understanding of how apps are deployed over the internet
+  2. worked with Git SSH keys
