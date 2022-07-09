@@ -151,6 +151,14 @@ body {
   padding: 0px;
 }
 
+.recent-project h3.mobile-version{
+  display: none;
+}
+
+.recent-project h5.mobile-version{
+  display: none;
+}
+
 .recent-project-container{
   display: flex;
   flex-direction: column;
