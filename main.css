@@ -159,5 +159,26 @@ body {
 }
 
 .recent-project-container-spacer{
-  height: 5vh;
+  height: 3vh;
+}
+
+@media screen and (max-width: 400px) {
+  .recent-project h2{
+    display: none;
+  }
+  .recent-project h4{
+    display: none;
+  }
+  .recent-project h3.mobile-version{
+    margin: 0px;
+    padding: 0px;
+    display: block;
+  }
+  
+  .recent-project h5.mobile-version{
+    margin: 15px;
+    padding: 0px;
+    display: block;
+    font-weight: normal;
+  }
 }
