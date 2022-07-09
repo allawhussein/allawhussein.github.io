@@ -190,3 +190,9 @@ body {
     font-weight: normal;
   }
 }
+
+@media screen and (max-width: 230px) {
+  body{
+    height: 100%;
+  }
+}
