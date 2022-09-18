@@ -8,7 +8,7 @@ The portfolio should include: home page highlighting the skill I wish to endorse
 2. Fast Typing (Up to 90 WPM on monkeytype.com)
 3. Embedded Programming (Arduino, Raspberry Pi, Microcontrollers - tutored students, completed self projects)
 4. Robotics (LEGO Mindstorms, Arduino, Raspberry Pi - tutored students, participated in competitons, completeted self projects)
-5. DBMS (self-studying DBMS textbook by Raghu Ramakrishan)
+5. DBMS (self-studyed Part 1 - basics - in the DBMS textbook by Raghu Ramakrishan)
 6. Designing Electronic Circuts (completed self projects).
 7. Soldering (completed self and commerial projects)
 8. Web development (HTML/CSS/Vanilla JS/Python-Django - wait for my porfolio)
