@@ -9,6 +9,10 @@
     1.7- connecting to EC2 instance using openssh
     1.8- understanding of how apps are deployed over the internet
   2. worked with Git SSH keys
+# 15 July 2022
+  1. Opened first issue on github
+  2. worked on GCP VM
+    1.1- successful deployment of pre-trained ML model over HTTPS using gradio
 # 13 September 2022 - During work with GEO
   1. worked on GCP Cloud functions
     1.1- creation of demo function, with ability to parse one variable
