@@ -9,3 +9,6 @@
     1.7- connecting to EC2 instance using openssh
     1.8- understanding of how apps are deployed over the internet
   2. worked with Git SSH keys
+# 13 September 2022 - During work with GEO
+  1. worked on GCP Cloud functions
+    1.1- creation of demo function, with ability to parse one variable
