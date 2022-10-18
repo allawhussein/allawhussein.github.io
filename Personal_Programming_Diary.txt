@@ -16,3 +16,10 @@
 # 13 September 2022 - During work with GEO
   1. worked on GCP Cloud functions
     1.1- creation of demo function, with ability to parse one variable
+
+# 15 October 2022 - During S. Jinan Tutoring
+  1. coded a successful YouTube video views title with YouTube API
+  
+# 18 October 2022 - During pushing to LUFE-S5-MECH
+  1.  Discovered git LFS
+    1.1- useful for dealing with large files, with faster pushing and pulling
